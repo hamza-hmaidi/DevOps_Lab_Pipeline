@@ -1,4 +1,4 @@
-from 18-alpine3.14
+from node:18-bullseye
 WORKDIR /app
 COPY package*.json .
 RUN npm install 
